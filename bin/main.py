@@ -1,1 +1,1 @@
-print "usage: toucht filetype [filenames]
+print "usage: toucht filetype [filenames]"
