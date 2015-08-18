@@ -1,0 +1,39 @@
+{
+  "name": "toucht",
+  "preferGlobal": true,
+  "version": "0.0.1",
+  "description": "Create files from templates or update file headers.",
+  "author": "Dane Pilcher",
+  "bin": {
+    "toucht": "./bin/toucht"
+  },
+  "main": "./lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dpilch/toucht.git"
+  },
+  "keywords": [
+    "touch",
+    "template",
+    "update",
+    "file"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dpilch/toucht/issues"
+  },
+  "homepage": "https://dpilch.github.io/toucht",
+  "dependencies": {
+    "handlebars": "^3.0.3"
+  },
+  "devDependencies": {
+    "jshint": "^2.8.0",
+    "mocha": "^2.2.5"
+  }
+}
