@@ -1,1 +1,20 @@
 #!/usr/bin/env node
+
+var path = require('path');
+var fs = require('fs');
+var program = require('commander');
+var Toucht = require('../');
+
+program
+  .version(require('../package.json').version)
+  .usage('<file>');
+
+program
+	.option('-l <lang>, --lang <lang>', 'Choose a language')
+	.option('-t <template>, --template <template>', 'Choose a template');
+
+program.parse(process.argv);
+
+if (!program.args.length) {
+	program.help();
+}

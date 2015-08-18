@@ -30,6 +30,7 @@
   },
   "homepage": "https://dpilch.github.io/toucht",
   "dependencies": {
+    "commander": "^2.8.1",
     "handlebars": "^3.0.3"
   },
   "devDependencies": {
